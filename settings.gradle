@@ -1,0 +1,4 @@
+rootProject.name = 'qjcs'
+include 'qjcs-web'
+findProject(':qjcs-web')?.name = 'qjcs'
+
